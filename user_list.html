@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>FAR</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+  <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
+  <link href="css/styles.css" rel="stylesheet" />
+  <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+
+</head>
+
+<body class="sb-nav-fixed">
+  <header class="header" id="header">
+    <nav class="sb-topnav navbar navbar-expand">
+      <!-- Navbar Brand-->
+      <a class="navbar-brand ps-3" href="index.html"><img src="Images/logo.svg" alt="" /></a>
+      <!-- Sidebar Toggle-->
+      <button class="btn btn-link order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i
+          class="fas fa-bars"></i></button>
+      <!-- Navbar Search-->
+
+      <!-- Navbar-->
+      <ul class="navbar-nav ms-auto me-0 me-md-3 my-2 my-md-0 me-lg-4">
+        <li class="nav-item dropdown pe-3">
+
+          <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+            <i class="fa-regular fa-envelope color-white"></i>
+            <!-- <span class="d-none d-md-block dropdown-toggle ps-2">K. Anderson</span> -->
+          </a><!-- End Profile Iamge Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-person"></i>
+                <span>My Profile</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-gear"></i>
+                <span>Account Settings</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="pages-faq.html">
+                <i class="bi bi-question-circle"></i>
+                <span>Need Help?</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <i class="bi bi-box-arrow-right"></i>
+                <span>Sign Out</span>
+              </a>
+            </li>
+
+          </ul><!-- End Profile Dropdown Items -->
+        </li><!-- End Profile Nav -->
+        <li class="nav-item dropdown pe-3">
+
+          <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+            <i class="fa-regular fa-bell color-white"></i>
+            <!-- <span class="d-none d-md-block dropdown-toggle ps-2">K. Anderson</span> -->
+          </a><!-- End Profile Iamge Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-person"></i>
+                <span>My Profile</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-gear"></i>
+                <span>Account Settings</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="pages-faq.html">
+                <i class="bi bi-question-circle"></i>
+                <span>Need Help?</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <i class="bi bi-box-arrow-right"></i>
+                <span>Sign Out</span>
+              </a>
+            </li>
+
+          </ul><!-- End Profile Dropdown Items -->
+        </li><!-- End Profile Nav -->
+        <li class="nav-item dropdown pe-3">
+
+          <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+            <img src="./Images/profile-img.PNG" alt="Profile">
+            <!-- <span class="d-none d-md-block dropdown-toggle ps-2">K. Anderson</span> -->
+          </a><!-- End Profile Iamge Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+            <li class="dropdown-header">
+              <h6>Shreya Saha</h6>
+              <span>Web Designer</span>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-person"></i>
+                <span>My Profile</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-gear"></i>
+                <span>Account Settings</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="pages-faq.html">
+                <i class="bi bi-question-circle"></i>
+                <span>Need Help?</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <i class="bi bi-box-arrow-right"></i>
+                <span>Sign Out</span>
+              </a>
+            </li>
+
+          </ul><!-- End Profile Dropdown Items -->
+        </li><!-- End Profile Nav -->
+      </ul>
+    </nav>
+  </header>
+  <div id="layoutSidenav">
+    <div id="layoutSidenav_nav">
+      <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+        <ul class="sideNavbar" id="sideNavbar">
+            <li class="nav-item">
+              <a class="nav-link collapsed" href="index.html">
+                <i class="bi bi-grid"></i>
+                <span>Dashboard</span>
+              </a>
+            </li><!-- End Dashboard Nav -->
+
+      
+            <li class="nav-item">
+                <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="add_assets_list.html" >
+                  <i class="bi bi-menu-button-wide"></i><span>Assets Master</span><i class="bi bi-chevron-right ms-auto"></i>
+                </a>
+                <ul id="components-nav" class="nav-content collapse" data-bs-parent="#sideNavbar">
+                  <li>
+                    <a href="add_assets_list.html">
+                      <i class="bi bi-circle"></i><span>Asset List</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="add_assets.html">
+                      <i class="bi bi-circle"></i><span>Add Assets</span>
+                    </a>
+                  </li>
+                </ul>
+              </li><!-- End Assets Master Nav -->
+      
+            <li class="nav-item">
+              <a class="nav-link collapsed" href="assets_approval_status.html">
+                <i class="bi bi-check-square"></i><span>Approvals</span>
+              </a>
+            </li><!-- End Approvals Nav -->
+      
+            <li class="nav-item">
+              <a class="nav-link collapsed" href="assign_custodian.html">
+                <i class="bi bi-person-plus-fill"></i><span>Assign Custodian</span>
+              </a>
+              
+            </li><!-- End Assign Custodian Nav -->
+      
+            <li class="nav-item">
+              <a class="nav-link collapsed" href="assets_verification.html">
+                <i class="bi bi-gear-fill"></i><span>Asset Verification</span>
+              </a>
+            
+            </li><!-- End assets_verification Nav -->
+      
+            <li class="nav-item">
+              <a class="nav-link collapsed" href="assets_verified.html">
+                <i class="bi bi-check-all"></i><span>Asset Verified</span>
+              </a>
+            </li><!-- End asset Verified Nav -->
+
+            <li class="nav-item">
+              <a class="nav-link collapsed" href="my_assets.html">
+                <i class="bi bi-person-check-fill"></i><span>My Assets</span>
+              </a>
+            
+            </li><!-- End my_assets Nav -->
+      
+            <li class="nav-item">
+              <a class="nav-link collapsed"  href="my_account.html">
+                <i class="bi bi-file-person"></i><span>My Accounts</span>
+              </a>
+            </li><!-- End My Accounts Nav -->
+      
+            <li class="nav-item">
+              <a class="nav-link" data-bs-target="#settings-nav" data-bs-toggle="collapse" href="#">
+                <i class="bi bi-gear"></i><span>Settings</span><i class="bi bi-chevron-right ms-auto"></i>
+              </a>
+              <ul id="settings-nav" class="nav-content collapse show mb-2 " data-bs-parent="#sideNavbar">
+                <li class="">
+                  <a href="company_profile.html">
+                    <i class="bi bi-circle"></i><span>Company Profile</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="business_units.html">
+                    <i class="bi bi-circle"></i><span>Bussines Units</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="departments.html">
+                    <i class="bi bi-circle"></i><span>Departments</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="designations.html">
+                    <i class="bi bi-circle"></i><span>Designations</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="roles_permission.html">
+                    <i class="bi bi-circle"></i><span>Role & Permissions</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="assign_categories.html">
+                    <i class="bi bi-circle"></i><span>Asset Categories</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="user_list.html"  class="active">
+                    <i class="bi bi-circle"></i><span>User</span>
+                  </a>
+                </li>
+              </ul>
+            </li><!-- End My Accounts Nav -->
+      
+          </ul>
+      
+      </nav>
+    </div>
+
+
+    <div id="layoutSidenav_content">
+      <main>
+        <div class="container-fluid px-4">
+          <h3 class="mt-4">User List</h3>
+          <ol class="breadcrumb mb-4">
+            <li class="breadcrumb-item"><a href="index.html">Settings</a></li>
+            <li class="breadcrumb-item active">User List</li>
+          </ol>
+
+
+
+          <!-- Chart_3 Card -->
+
+          <div class="row">
+            <!-- Table -->
+            <div class="col-12">
+              <div class="card recent-sales overflow-auto">
+
+
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <div class="section-button pt-4 mb-4">
+                      <div class=" gap-2 d-flex mb-2">
+
+                        <div class="col-md-12 me-1">
+                        <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                        </div>
+                        <div class="dropdown">
+                          <button class="btn  btn-outline-primary rounded dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                            All User
+                          </button>
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                            <li><button class="dropdown-item" type="button">Action</button></li>
+                            <li><button class="dropdown-item" type="button">Another action</button></li>
+                            <li><button class="dropdown-item" type="button">Something else here</button></li>
+                          </ul>
+                        </div>
+
+                      </div>
+                      <!-- <div class="d-grid gap-2 d-flex buttn_grp align-items-center">
+                        <button type="button" class="d-inline btn btn-outline-primary">
+                          <label for="inputTag">Bulk Upload</label>
+                          <input type="file" class="d-none" name="inputTag" id="inputTag">
+                        </button>
+                        <p class="mb-0 ms-2 font-blue">Download Template</p>
+                      </div> -->
+
+                    </div>
+                    <div class=" mt-4">
+                      <button type="button" class="btn btn-primary me-1"><a href="add_newUser.html"> Add User </a></button>
+
+                      <button type="button" class="btn btn-primary me-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Export User List</button>
+                      <div class="modal fade" id="exampleModal" tabindex="-1" ar ia-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Assets List</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <div class="table-responsive table-card table-wrapper-scroll-y my-custom-scrollbar mb-4">
+                                <table class="table table-nowrap table-striped-columns mb-0">
+                                  <thead class="table-light">
+                                    <tr>
+                                      <th scope="col">Serial No.</th>
+                                      <th scope="col">Asset Name</th>
+                                      <th scope="col">Assets Category</th>
+                                      <th scope="col">Asset Type</th>
+                                      <th scope="col">Capitalization Status</th>
+                                      <th scope="col">Verification Status</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td>4</td>
+                                      <td>IT Services</td>
+                                      <td>IT Services</td>
+                                      <td>it</td>
+                                      <td>Capitalized</td>
+                                      <td>Verification not-Started</td>
+                                    </tr>
+                                    <tr>
+                                      <td>5</td>
+                                      <td>Devops</td>
+                                      <td>Devops</td>
+                                      <td>it</td>
+                                      <td>Capitalized</td>
+                                      <td>Verification not-Started</td>
+                                    </tr>
+                                    <tr>
+                                      <td>6</td>
+                                      <td>Destop</td>
+                                      <td>IT Services</td>
+                                      <td>it</td>
+                                      <td>Capitalized</td>
+                                      <td>Verification not-Started</td>
+                                    </tr>
+                                    
+                                  </tbody>
+                                </table>
+                              </div>
+                            </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div>
+
+                    <!-- --------------Table part start------- -->
+
+                    <div class="table-responsive table-card table-wrapper-scroll-y my-custom-scrollbar mb-4">
+                      <table class="table table-nowrap table-striped-columns mb-0">
+                        <thead class="table-light">
+                          <tr>
+                            <th scope="col">Employee ID</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Email</th>
+                            <th scope="col">Mobile</th>
+                            <th scope="col">User Role</th>
+                            <th scope="col">Edit</th>
+                            <th scope="col">View</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>ank121</td>
+                            <td>Ankur Sharma</td>
+                            <td>ankur@jsspro.com</td>
+                            <td>91456456333</td>
+                            <td>Admin</td>
+                            <td>
+                              <a href="#"><img src="./Images/action.svg" alt="Profile"></a>
+                            </td>
+                            <td>
+                              <a href="#"><img src="./Images/view.svg" alt="Profile"></a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>ank121</td>
+                            <td>Ankur Sharma</td>
+                            <td>ankur@jsspro.com</td>
+                            <td>91456456333</td>
+                            <td>Admin</td>
+                            <td>
+                              <a href="#"><img src="./Images/action.svg" alt="Profile"></a>
+                            </td>
+                            <td>
+                              <a href="#"><img src="./Images/view.svg" alt="Profile"></a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>ank121</td>
+                            <td>Ankur Sharma</td>
+                            <td>ankur@jsspro.com</td>
+                            <td>91456456333</td>
+                            <td>Admin</td>
+                            <td>
+                              <a href="#"><img src="./Images/action.svg" alt="Profile"></a>
+                            </td>
+                            <td>
+                              <a href="#"><img src="./Images/view.svg" alt="Profile"></a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>ank121</td>
+                            <td>Ankur Sharma</td>
+                            <td>ankur@jsspro.com</td>
+                            <td>91456456333</td>
+                            <td>Admin</td>
+                            <td>
+                              <a href="#"><img src="./Images/action.svg" alt="Profile"></a>
+                            </td>
+                            <td>
+                              <a href="#"><img src="./Images/view.svg" alt="Profile"></a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>ank121</td>
+                            <td>Ankur Sharma</td>
+                            <td>ankur@jsspro.com</td>
+                            <td>91456456333</td>
+                            <td>Admin</td>
+                            <td>
+                              <a href="#"><img src="./Images/action.svg" alt="Profile"></a>
+                            </td>
+                            <td>
+                              <a href="#"><img src="./Images/view.svg" alt="Profile"></a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>ank121</td>
+                            <td>Ankur Sharma</td>
+                            <td>ankur@jsspro.com</td>
+                            <td>91456456333</td>
+                            <td>Admin</td>
+                            <td>
+                              <a href="#"><img src="./Images/action.svg" alt="Profile"></a>
+                            </td>
+                            <td>
+                              <a href="#"><img src="./Images/view.svg" alt="Profile"></a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>ank121</td>
+                            <td>Ankur Sharma</td>
+                            <td>ankur@jsspro.com</td>
+                            <td>91456456333</td>
+                            <td>Admin</td>
+                            <td>
+                              <a href="#"><img src="./Images/action.svg" alt="Profile"></a>
+                            </td>
+                            <td>
+                              <a href="#"><img src="./Images/view.svg" alt="Profile"></a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>ank121</td>
+                            <td>Ankur Sharma</td>
+                            <td>ankur@jsspro.com</td>
+                            <td>91456456333</td>
+                            <td>Admin</td>
+                            <td>
+                              <a href="#"><img src="./Images/action.svg" alt="Profile"></a>
+                            </td>
+                            <td>
+                              <a href="#"><img src="./Images/view.svg" alt="Profile"></a>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+
+
+                    <nav aria-label="Page navigation example">
+                      <ul class="pagination pagination-sm justify-content-end">
+                        <li class="page-item">
+                          <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                          </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                          <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+            <End Recent Sales -->
+          </div>
+
+      </main>
+      <footer class="py-4 bg-light mt-auto" id="footer">
+        <div class="container-fluid px-4">
+          <div class="d-flex align-items-center justify-content-between small">
+            <div class="text-muted">2022@ JSSPro team </div>
+            <div>
+              <a href="#" class="me-2">About</a>
+              &middot;
+              <a href="#" class="me-2">Suport</a>
+              &middot;
+              <a href="#">Purchase</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script>
+  <script src="js/datatables-simple-demo.js"></script>
+
+</body>
+
+</html>
