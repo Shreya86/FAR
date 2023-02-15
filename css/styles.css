@@ -1289,31 +1289,3 @@ tbody td{
   padding: 1px 2px;
   transition: 0.3s;
 }
-
-.login_text{
-  color: #888C9F;
-  font-size: 14px;
-
-}
-
-.forgot_text{
-  color: #089BF8;
-  font-size: 14px;
-  text-decoration: none;
-  
-}
-
-.login_btn{
-  background: #089BF8!important;
-  color: #ffffff!important;
-}
-
-.off_canvas{
-  color: #DF9734;
-  font-size: 16px;
-}
-
-.off_text{
-  color: #AEAEAE;
-  font-size: 12px;
-}
